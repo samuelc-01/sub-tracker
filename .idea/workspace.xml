@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35263c68-9c21-4e08-9eda-c6b9d22f58e7" name="Changes" comment="create routes auth, subscription, user">
-      <change afterPath="$PROJECT_DIR$/database/mongodb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.development.local" beforeDir="false" afterPath="$PROJECT_DIR$/.env.development.local" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/env.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/env.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="35263c68-9c21-4e08-9eda-c6b9d22f58e7" name="Changes" comment="create db and env">
+      <change beforePath="$PROJECT_DIR$/.env.development.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.production.local" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1758564652745</updated>
       <workItem from="1758564654056" duration="254000" />
-      <workItem from="1758564920086" duration="11098000" />
+      <workItem from="1758564920086" duration="11416000" />
     </task>
     <task id="LOCAL-00001" summary="create express server">
       <option name="closed" value="true" />
@@ -146,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758662029774</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="create db and env">
+      <option name="closed" value="true" />
+      <created>1758663297983</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1758663297983</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +162,7 @@
     <MESSAGE value="create folder route with the auth" />
     <MESSAGE value="fix auth" />
     <MESSAGE value="create routes auth, subscription, user" />
-    <option name="LAST_COMMIT_MESSAGE" value="create routes auth, subscription, user" />
+    <MESSAGE value="create db and env" />
+    <option name="LAST_COMMIT_MESSAGE" value="create db and env" />
   </component>
 </project>
