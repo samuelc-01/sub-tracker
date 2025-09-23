@@ -60,3 +60,10 @@ typings/
 
 # next.js build output
 .next
+
+#Description:
+#Setting up a monolithic backend
+# Using nodejs and expressjs
+# Connecting to a mongodb database
+# securing your api with arcjet
+# and automating subscription tracking with upstash workflows
