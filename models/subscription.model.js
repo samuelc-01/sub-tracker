@@ -81,7 +81,7 @@ subscriptionSchema.pre('save', function (next) {
 
     next()
 })
-
+console.log("finish")
 const Subscription = mongoose.model('Subscription', subscriptionSchema);
 
 export default Subscription;
