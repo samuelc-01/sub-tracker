@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35263c68-9c21-4e08-9eda-c6b9d22f58e7" name="Changes" comment="create db and env">
-      <change beforePath="$PROJECT_DIR$/.env.development.local" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.production.local" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/subscription.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/user.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +32,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/samuelc-01/sub-tracker&quot;,
+    &quot;url&quot;: &quot;git@github.com:samuelc-01/sub-tracker.git&quot;,
     &quot;accountId&quot;: &quot;1d61ab9d-a024-4dc5-bca8-6a5055f80ea4&quot;
   }
 }</component>
@@ -52,6 +53,7 @@
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;js.linters.configure.manually.selectedeslint&quot;: &quot;true&quot;,
@@ -84,6 +86,9 @@
       <updated>1758564652745</updated>
       <workItem from="1758564654056" duration="254000" />
       <workItem from="1758564920086" duration="11416000" />
+      <workItem from="1758665526085" duration="17000" />
+      <workItem from="1759188755221" duration="791000" />
+      <workItem from="1759943664745" duration="775000" />
     </task>
     <task id="LOCAL-00001" summary="create express server">
       <option name="closed" value="true" />
