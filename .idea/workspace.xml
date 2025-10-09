@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35263c68-9c21-4e08-9eda-c6b9d22f58e7" name="Changes" comment="create a error handle with middleware">
+    <list default="true" id="35263c68-9c21-4e08-9eda-c6b9d22f58e7" name="Changes" comment="setup jwt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +63,7 @@
     "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.editor",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "ts.external.directory.path": "/home/user/Downloads/WebStorm-2025.2.2/WebStorm-252.26199.162/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
@@ -89,7 +87,7 @@
       <workItem from="1758665526085" duration="17000" />
       <workItem from="1759188755221" duration="791000" />
       <workItem from="1759943664745" duration="3796000" />
-      <workItem from="1760030252438" duration="2020000" />
+      <workItem from="1760030252438" duration="2391000" />
     </task>
     <task id="LOCAL-00001" summary="create express server">
       <option name="closed" value="true" />
@@ -203,7 +201,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760031944059</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="setup jwt">
+      <option name="closed" value="true" />
+      <created>1760032491234</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1760032491234</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +226,7 @@
     <MESSAGE value="create a usermodel" />
     <MESSAGE value="create a subscription models" />
     <MESSAGE value="create a error handle with middleware" />
-    <option name="LAST_COMMIT_MESSAGE" value="create a error handle with middleware" />
+    <MESSAGE value="setup jwt" />
+    <option name="LAST_COMMIT_MESSAGE" value="setup jwt" />
   </component>
 </project>
