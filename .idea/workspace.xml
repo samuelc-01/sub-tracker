@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35263c68-9c21-4e08-9eda-c6b9d22f58e7" name="Changes" comment="create a usermodel">
+    <list default="true" id="35263c68-9c21-4e08-9eda-c6b9d22f58e7" name="Changes" comment="create a subscription models">
+      <change afterPath="$PROJECT_DIR$/middleware/error.middleware.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/subscription.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/subscription.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +88,8 @@
       <workItem from="1758564920086" duration="11416000" />
       <workItem from="1758665526085" duration="17000" />
       <workItem from="1759188755221" duration="791000" />
-      <workItem from="1759943664745" duration="3394000" />
+      <workItem from="1759943664745" duration="3796000" />
+      <workItem from="1760030252438" duration="1577000" />
     </task>
     <task id="LOCAL-00001" summary="create express server">
       <option name="closed" value="true" />
@@ -161,7 +163,23 @@
       <option name="project" value="LOCAL" />
       <updated>1759944631182</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="create a subscription models">
+      <option name="closed" value="true" />
+      <created>1759953177496</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1759953177496</updated>
+    </task>
+    <task id="LOCAL-00011" summary="create a subscription models">
+      <option name="closed" value="true" />
+      <created>1759953281451</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1759953281451</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,18 +194,7 @@
     <MESSAGE value="create routes auth, subscription, user" />
     <MESSAGE value="create db and env" />
     <MESSAGE value="create a usermodel" />
-    <option name="LAST_COMMIT_MESSAGE" value="create a usermodel" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/models/subscription.model.js</url>
-          <line>2</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="create a subscription models" />
+    <option name="LAST_COMMIT_MESSAGE" value="create a subscription models" />
   </component>
 </project>
