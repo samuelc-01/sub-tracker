@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35263c68-9c21-4e08-9eda-c6b9d22f58e7" name="Changes" comment="create a subscription models">
-      <change afterPath="$PROJECT_DIR$/middleware/error.middleware.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-    </list>
+    <list default="true" id="35263c68-9c21-4e08-9eda-c6b9d22f58e7" name="Changes" comment="create a error handle with middleware" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +85,7 @@
       <workItem from="1758665526085" duration="17000" />
       <workItem from="1759188755221" duration="791000" />
       <workItem from="1759943664745" duration="3796000" />
-      <workItem from="1760030252438" duration="1577000" />
+      <workItem from="1760030252438" duration="1648000" />
     </task>
     <task id="LOCAL-00001" summary="create express server">
       <option name="closed" value="true" />
@@ -179,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759953281451</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="create a error handle with middleware">
+      <option name="closed" value="true" />
+      <created>1760031882463</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1760031882463</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +199,7 @@
     <MESSAGE value="create db and env" />
     <MESSAGE value="create a usermodel" />
     <MESSAGE value="create a subscription models" />
-    <option name="LAST_COMMIT_MESSAGE" value="create a subscription models" />
+    <MESSAGE value="create a error handle with middleware" />
+    <option name="LAST_COMMIT_MESSAGE" value="create a error handle with middleware" />
   </component>
 </project>
