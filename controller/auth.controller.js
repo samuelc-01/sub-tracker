@@ -11,7 +11,7 @@ export const signUp = async (req, res, next) => {
 
     try{
         const { name, email, password } = req.body;
-        const existingUser = await User.find({email});
+        const existingUser = await User.findOne({ email});
 
         if(existingUser){
             const error = new Error('User already exists');
@@ -19,7 +19,7 @@ export const signUp = async (req, res, next) => {
             throw error;
         }
         
-        const salt = await bcrypt.genDalt(10);
+        const salt = await bcrypt.genSalt(10);
         const hashedPassword = await bcrypt.hash(password, salt);
         
         const newUsers = await User.create([{name, email, password: hashedPassword}], {session})
@@ -30,8 +30,8 @@ export const signUp = async (req, res, next) => {
         session.endSession();
         
         res.status(201).json({
-            sucess: true,
-            message: 'User sucessfully',
+            success: true,
+            message: 'User successfully',
             data: {
                 token,
                 user: newUsers[0],

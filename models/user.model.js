@@ -17,7 +17,7 @@ const UserSchema = new mongoose.Schema({
         minLength: 5,
         maxLength: 60,
         lowercase: true,
-        match: /^[a-zA-Z0-9_-]+$/,
+        match: /^[\w.-]+@[a-z\d.-]+\.[a-z]{2,}$/i,
     },
 
     password: {

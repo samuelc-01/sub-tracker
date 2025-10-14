@@ -31,4 +31,3 @@ app.listen(PORT, async () => {
 });
 
 export default app;
-console.log(`onfig .env prod and dev`);
