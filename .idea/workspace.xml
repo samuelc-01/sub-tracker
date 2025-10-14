@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35263c68-9c21-4e08-9eda-c6b9d22f58e7" name="Changes" comment="fix the signUp fucntion in auth.controller.js, change the regex for email">
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+    <list default="true" id="35263c68-9c21-4e08-9eda-c6b9d22f58e7" name="Changes" comment="fix the import on middlewares">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/auth.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/auth.controller.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +97,7 @@
       <workItem from="1760378699208" duration="3564000" />
       <workItem from="1760383105205" duration="15000" />
       <workItem from="1760446928339" duration="3710000" />
+      <workItem from="1760451202340" duration="830000" />
     </task>
     <task id="LOCAL-00001" summary="create express server">
       <option name="closed" value="true" />
@@ -241,7 +243,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760450639097</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="fix the import on middlewares">
+      <option name="closed" value="true" />
+      <created>1760451087246</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1760451087246</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +272,7 @@
     <MESSAGE value="auth controller" />
     <MESSAGE value="add controller for the routes, add Signup logic with jwt" />
     <MESSAGE value="fix the signUp fucntion in auth.controller.js, change the regex for email" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix the signUp fucntion in auth.controller.js, change the regex for email" />
+    <MESSAGE value="fix the import on middlewares" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix the import on middlewares" />
   </component>
 </project>
