@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35263c68-9c21-4e08-9eda-c6b9d22f58e7" name="Changes" comment="add controller for the routes, add Signup logic with jwt">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/env.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/env.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/auth.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/auth.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/user.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.model.js" afterDir="false" />
-    </list>
+    <list default="true" id="35263c68-9c21-4e08-9eda-c6b9d22f58e7" name="Changes" comment="fix the signUp fucntion in auth.controller.js, change the regex for email" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,7 +93,7 @@
       <workItem from="1760030252438" duration="2662000" />
       <workItem from="1760378699208" duration="3564000" />
       <workItem from="1760383105205" duration="15000" />
-      <workItem from="1760446928339" duration="3391000" />
+      <workItem from="1760446928339" duration="3710000" />
     </task>
     <task id="LOCAL-00001" summary="create express server">
       <option name="closed" value="true" />
@@ -237,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760382257093</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="fix the signUp fucntion in auth.controller.js, change the regex for email">
+      <option name="closed" value="true" />
+      <created>1760450639097</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1760450639097</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +259,7 @@
     <MESSAGE value="setup jwt" />
     <MESSAGE value="auth controller" />
     <MESSAGE value="add controller for the routes, add Signup logic with jwt" />
-    <option name="LAST_COMMIT_MESSAGE" value="add controller for the routes, add Signup logic with jwt" />
+    <MESSAGE value="fix the signUp fucntion in auth.controller.js, change the regex for email" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix the signUp fucntion in auth.controller.js, change the regex for email" />
   </component>
 </project>
