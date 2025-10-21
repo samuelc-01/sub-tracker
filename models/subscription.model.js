@@ -14,7 +14,7 @@ const subscriptionSchema = new mongoose.Schema({
         min: [0, 'Price is required'],
     },
     currency: {
-        type: Number,
+        type: String,
         enum: ['USD', 'EUR', 'BRL'],
         default: 'USD',
     },
@@ -47,7 +47,6 @@ const subscriptionSchema = new mongoose.Schema({
     },
     renewalDate: {
         type: Date,
-        required: [true, 'Start date is required'],
         validate: {
             validator: (value) => value <= new Date(),
             message: 'Start date is required',
