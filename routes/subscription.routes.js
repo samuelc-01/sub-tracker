@@ -4,13 +4,13 @@ import authorize from '../middlewares/auth.middleware.js'
 
 const subscriptionRouter = Router();
 
-subscriptionRouter.get('/', subscriptionController.getAllSubscriptions);
-subscriptionRouter.get('/upcoming-renewals',subscriptionController.getUpcomingRenewals);
+subscriptionRouter.get('/', authorize, subscriptionController.getAllSubscriptions);
+subscriptionRouter.get('/upcoming-renewals', authorize,subscriptionController.getUpcomingRenewals);
 subscriptionRouter.get('/user/:id', authorize, subscriptionController.getUserSubscription);
-subscriptionRouter.get('/:id', subscriptionController.getSubscriptionById);
+subscriptionRouter.get('/:id', authorize,subscriptionController.getSubscriptionById);
 subscriptionRouter.post('/', authorize, subscriptionController.createSubscription);
-subscriptionRouter.put('/:id', subscriptionController.updateSubscription);
-subscriptionRouter.put('/:id/cancel', subscriptionController.cancelSubscription);
-subscriptionRouter.delete('/:id', subscriptionController.deleteSubscription);
+subscriptionRouter.put('/:id',authorize, subscriptionController.updateSubscription);
+subscriptionRouter.put('/:id/cancel',authorize, subscriptionController.cancelSubscription);
+subscriptionRouter.delete('/:id',authorize, subscriptionController.deleteSubscription);
 
 export default subscriptionRouter;
