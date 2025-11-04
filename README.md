@@ -1,4 +1,4 @@
-```markdown
+
 # 🚀 Subscription Tracker – Production-Ready Backend System
 
 A **Subscription Management System** built for real-world use — managing users, plans, and recurring payments with proper authentication, database design, and business logic.  
